@@ -1,0 +1,2 @@
+http://69.49.228.42/1kball/dev/
+http://69.49.228.42/1kball/dev/api/v1/catgames/1
