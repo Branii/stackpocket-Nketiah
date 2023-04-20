@@ -1,4 +1,20 @@
+//sample code dateObject--------------------------------
 
+    $('.left').click(function(){
+      let dateValue = $("#dateInput").val();
+      let currentDate = new Date(dateValue)
+      let newDate = new Date(currentDate.getTime() - 24*60*60*1000)
+      $("#dateInput").val(newDate.toISOString().slice(0,10))
+    })
+
+    $('.right').click(function(){
+      let dateValue = $("#dateInput").val();
+      let currentDate = new Date(dateValue)
+      let newDate = new Date(currentDate.getTime() + 24*60*60*1000)
+      $("#dateInput").val(newDate.toISOString().slice(0,10))
+    })
+
+//---------------------------------------------------------
 
 my-index css file
 body {
